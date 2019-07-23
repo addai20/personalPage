@@ -32,7 +32,69 @@ class Home extends Component {
 
         <Container>
           <h3> A few blogs here.. </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum magna sed erat consectetur ultrices. Sed lobortis ex sed leo posuere, sit amet semper leo molestie. Cras nec fermentum enim. Nulla at felis diam. Curabitur eros ipsum, consectetur a dapibus blandit, facilisis nec lorem. Vestibulum ullamcorper nunc vestibulum nisl bibendum placerat. Praesent eu ligula fringilla, consequat nulla ac, auctor nibh. Vestibulum non ipsum tincidunt, dictum tellus consectetur, vehicula nulla. Suspendisse sem nunc, bibendum et lectus eget, consectetur ullamcorper metus. Donec nec scelerisque sem. Praesent ultrices lectus nibh, ac sagittis mi finibus id. Suspendisse eget nunc fringilla, volutpat enim quis, ornare mi.</p>
+          <p>
+            Below are are a number of curated blog posts about specific web development and technical concepts that I am interested in. Feel free to connect with me via Medium.
+          </p>
+        </Container>
+
+        <Container onClick={console.log("Container Clicked!")}>
+          <Row>
+            <Col>
+              <Card bg="dark" text="white" style={{ width: '18rem' }} >
+                <Card.Header>The Web Audio API</Card.Header>
+                <Card.Body>
+                  <Card.Title></Card.Title>
+                  <Card.Text>
+                    A brief tutorial on how various waveforms can be generated in google chrome using the Web Audio API's Oscillator Node
+                  </Card.Text>
+                  <Card.Link rel="external" target="_blank" href="https://medium.com/@addai20/web-audio-api-generating-waveforms-using-oscillators-c20ddcfd5ef9">Medium</Card.Link>
+                </Card.Body>
+              </Card>
+              <br />
+            </Col>
+
+            <Col>
+              <Card bg="dark" text="white" style={{ width: '18rem' }}>
+                <Card.Header>About Time Complexity</Card.Header>
+                <Card.Body>
+                  <Card.Title></Card.Title>
+                  <Card.Text>
+                    An overview of the concept of time complexity and how it comes into play during the development process
+                  </Card.Text>
+                  <Card.Link rel="external" target="_blank" href="https://medium.com/@addai20/web-audio-api-generating-waveforms-using-oscillators-c20ddcfd5ef9">Medium</Card.Link>
+                </Card.Body>
+              </Card>
+              <br />
+            </Col>
+
+            <Col>
+              <Card bg="dark" text="white" style={{ width: '18rem' }}>
+                <Card.Header></Card.Header>
+                <Card.Body>
+                  <Card.Title>Dark Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              <br />
+            </Col>
+
+            <Col>
+              <Card bg="dark" text="white" style={{ width: '18rem' }}>
+                <Card.Header>Header</Card.Header>
+                <Card.Body>
+                  <Card.Title>Dark Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the bulk
+                    of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              <br />
+            </Col>
+          </Row>
         </Container>
       </Container>
     )
